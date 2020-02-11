@@ -1,4 +1,9 @@
-# ![logo](/examples/assets/instagram.png) Instagram-API [![Latest Stable Version](https://poser.pugx.org/mgp25/instagram-php/v/stable)](https://packagist.org/packages/mgp25/instagram-php) [![Total Downloads](https://poser.pugx.org/mgp25/instagram-php/downloads)](https://packagist.org/packages/mgp25/instagram-php) ![compatible](https://img.shields.io/badge/PHP%207-Compatible-brightgreen.svg) [![License](https://poser.pugx.org/mgp25/instagram-php/license)](https://packagist.org/packages/mgp25/instagram-php)
+# ![logo](/examples/assets/instagram.png) Instagram-API [![Latest Stable Version](https://poser.pugx.org/adrifkat/instagram-api/v/stable)](https://packagist.org/packages/adrifkat/instagram-api) [![Total Downloads](https://poser.pugx.org/adrifkat/instagram-api/downloads)](https://packagist.org/packages/adrifkat/instagram-api) ![compatible](https://img.shields.io/badge/PHP%207-Compatible-brightgreen.svg) [![License](https://poser.pugx.org/mgp25/instagram-php/license)](https://packagist.org/packages/adrifkat/instagram-api)
+
+### This is a copy of the code from the [mgp25/Instagram-API](https://github.com/mgp25/Instagram-API/) repository
+Original repository unavailable due to DMCA takedown. So I created this repository with a copy of the code for myself.
+Please follow the author’s [twitter](https://twitter.com/_mgp25) to keep abreast of the events.
+___
 
 This is a PHP library which emulates Instagram's Private API. This library is packed full with almost all the features from the Instagram Android App. This includes media uploads, direct messaging, stories and more.
 
@@ -35,7 +40,7 @@ We use composer to distribute our code effectively and easily. If you do not alr
 
 Once you have composer installed, you can do the following:
 ```sh
-composer require mgp25/instagram-php
+composer require adrifkat/instagram-api
 ```
 
 ```php
@@ -47,7 +52,7 @@ $ig = new \InstagramAPI\Instagram();
 If you want to test new and possibly unstable code that is in the master branch, and which hasn't yet been released, then you can do the following (at your own risk):
 
 ```sh
-composer require mgp25/instagram-php dev-master
+composer require adrifkat/instagram-api dev-master
 ```
 
 #### _Warning about moving data to a different server_
@@ -56,7 +61,7 @@ _Composer checks your system's capabilities and selects libraries based on your 
 
 ## Examples
 
-All examples can be found [here](https://github.com/mgp25/Instagram-API/tree/master/examples).
+All examples can be found [here](https://github.com/adrifkat/instagram-api/tree/master/examples).
 
 ## Code of Conduct
 
@@ -68,7 +73,7 @@ Please report any unacceptable behavior.
 
 If you would like to contribute to this project, please feel free to submit a pull request.
 
-Before you do, take a look at the [contributing guide](https://github.com/mgp25/Instagram-API/blob/master/CONTRIBUTING.md).
+Before you do, take a look at the [contributing guide](https://github.com/adrifkat/instagram-api/blob/master/CONTRIBUTING.md).
 
 ## Why did I make this API?
 
